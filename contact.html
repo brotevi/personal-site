@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href = "style.css">
-    <title>Home</title>
+    <title>Document</title>
 </head>
 <body>
-    <!--Name of the person who owns the site...ME!-->
-    <header>   
-        <h1 style="text-align: center;">Tevin Brown<br>
+    <header> 
+        <!--<section>-->
+            <h1 style="text-align: center;">Tevin Brown<br>
     
-        <!--Navigation buttons-->
-        
-            <b>Home</b>
-            <a href="about.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </h1>
+            <!--Navigation links-->
+            
+                <a href="index.html">Home</a>                                    
+                <a href="about.html">About</a>                                           
+                <a href="portfolio.html">Portfolio</a>
+                <b>Contact</b> 
+            </h1>
+        <!--<section>-->  
     </header>
     <main>
-        <p style="font-size:x-large">Part Time Trombonist, Full Time Web Developer<br>
-            <br>Interested in orchestrating a professional website. I have the skills to arrange the perfect score.<br><br>
-            <br>
-            <p style="text-align: center; font-size:xx-large"><i>"I'm always thinking about creating. My future starts when I wake up every morning 
-            <br> Every day I find something creative to do with my life."</i> -Miles Davis</p>
-        </p>
-
-
+        <form id="form">
+            <label for="name">Name:</label>
+            <input type="text" id="name"><br>
+            <label for="em"> Email:</label>
+            <input type="text" id="em"><br>
+            <textarea rows="10" cols="30" placeholder="Message"></textarea><br>
+            <input type ="submit" value="Submit">
+        </form>
     </main>
     <footer style="text-align: center;">
         <!--Social media links-->
@@ -36,8 +37,9 @@
             <button id="linkdin"><img src="https://img.freepik.com/premium-vector/square-linkedin-logo-isolated-white-background_469489-892.jpg" height="50" width="50"></button>
             <button id="facebook"><img src="https://www.logo.wine/a/logo/Facebook/Facebook-f_Logo-White-Dark-Background-Logo.wine.svg" height="50" width="50"></button>
         </div>
+
     </footer>
 
     <script src = "javascript.js"></script>
 </body>
-</html
+</html>
