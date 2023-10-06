@@ -1,4 +1,3 @@
-const myForm = document.getElementById("form")
-
-myForm.addEventListener("Submit", function(){
-    document.getElementsByName(success.html)})
+linkdin.addEventListener("click", null)
+facebook.addEventListener("click", null)
+twitter.addEventListener("click", null)
